@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Postview from './Postview';
 import reportWebVitals from './reportWebVitals';
+import Header from './Components/Header';
+
 
 
 
@@ -10,6 +12,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <Postview />
   </React.StrictMode>,
   document.getElementById('root')
