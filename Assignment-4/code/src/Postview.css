@@ -1,11 +1,63 @@
 .site-container{
-  text-align: center;
+  text-align: center; 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
 }
 html {
   font-size: 14px;
 }
-body {
-  line-height: 1.5;
-  color: black;
-  margin:0;
+
+.insta-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 11vh;
+  border: 1px solid black;
+  background-color: aqua;
+  position:fixed;
+
+}
+.insta-header h1{
+  margin-left: 20px;
+}
+.insta-header img{
+ margin-right: 20px;
 } 
+.contain{
+  z-index: -2;
+  top: 60px;
+  position: relative; 
+  border: 1px solid black;
+  width: 600px;
+  height: 450px;
+  border-radius: 1.4%;
+  margin-top: 30px;
+}
+.name-address{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.name{
+  margin-left: 20px;
+} 
+.opt{
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+.likes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn,.btn1{
+  margin: 10px;
+}
